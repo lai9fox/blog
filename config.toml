@@ -3,7 +3,7 @@ languageCode = "zh-cn"
 theme = "hugo-theme-stack"
 paginate = 10
 title = "狐假虎威"
-disqusShortname = "hugo-theme-stack"
+# disqusShortname = "hugo-theme-stack"
 DefaultContentLanguage = "zh-cn"
 hasCJKLanguage = true
 
@@ -26,8 +26,7 @@ favicon = "/favicon.ico"
   lastUpdated = "Jan 02, 2006 15:04 MST"
 
   [params.sidebar]
-  # emoji = "🍥"
-  subtitle = "fox is fox"
+  subtitle = "Haste makes waste."
 
     [params.sidebar.avatar]
     enabled = true
@@ -43,9 +42,15 @@ favicon = "/favicon.ico"
     enabled = true
     default = "Licensed under CC BY-NC-SA 4.0"
 
-  # [params.comments]
-  # enabled = true
-  # provider = "disqus"
+  [params.comments]
+  enabled = true
+  provider = "gitalk"
+    [params.comments.gitalk]
+      owner = 'lai9fox'
+      admin = ['lai9fox']
+      repo = 'https://github.com/lai9fox/blog'
+      clientID = '0c60543304dc769dd02e'
+      clientSecret = '170ec2b71f73b5785e9b759df22efd48663721e5'
 
   #   [params.comments.disqusjs]
 
@@ -103,16 +108,16 @@ type = "tag-cloud"
 [[params.widgets.page]]
 type = "toc"
 
-[params.opengraph.twitter]
-card = "summary_large_image"
+# [params.opengraph.twitter]
+# card = "summary_large_image"
 
 [params.defaultImage.opengraph]
 enabled = false
 local = false
 
-  [params.colorScheme]
-  toggle = true
-  default = "auto"
+[params.colorScheme]
+toggle = true
+default = "auto"
 
 [params.imageProcessing.cover]
 enabled = true
@@ -157,7 +162,7 @@ unsafe = false
 
 [markup.tableOfContents]
 endLevel = 4
-ordered = true
+ordered = false
 startLevel = 2
 
 [markup.highlight]
@@ -167,4 +172,4 @@ guessSyntax = true
 lineNoStart = 1
 lineNos = true
 lineNumbersInTable = true
-tabWidth = 4
+tabWidth = 2
