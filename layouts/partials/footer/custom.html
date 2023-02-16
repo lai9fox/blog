@@ -1,3 +1,4 @@
+<!-- 彩虹丝带效果 -->
 <script 
   src="https://cdn.jsdelivr.net/gh/zhixuan2333/gh-blog@v0.1.0/js/ribbon.min.js"
   integrity="sha384-UEK8ZiP3VgFNP8KnKMKDmd4pAUAOJ59Y2Jo3ED2Z5qKQf6HLHovMxq7Beb9CLPUe"
@@ -7,7 +8,7 @@
   zindex="-1"
   defer>
 </script>
-<!-- layouts/partials/footer/custom.html -->
+<!-- 顶部加载条效果 -->
 <script src="https://cdn.jsdelivr.net/gh/zhixuan2333/gh-blog@v0.1.0/js/nprogress.min.js"
   integrity="sha384-bHDlAEUFxsRI7JfULv3DTpL2IXbbgn4JHQJibgo5iiXSK6Iu8muwqHANhun74Cqg" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/zhixuan2333/gh-blog@v0.1.0/css/nprogress.css"
@@ -18,5 +19,13 @@
     if (document.readyState === "interactive") NProgress.inc(0.8);
     if (document.readyState === "complete") NProgress.done();
   });
+  const rightSideBar = document.querySelector(".right-sidebar");
+  const arrowUp = document.createElement("div");
+  arrowUp.innerHTML = `
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+    <path d="M214.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 141.2V448c0 17.7 14.3 32 32 32s32-14.3 32-32V141.2L329.4 246.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160z"/>
+  </svg>`
+  arrowUp.setAttribute("class", "arrow-up")
+  rightSideBar.appendChild(arrowUp);
 </script>
 
