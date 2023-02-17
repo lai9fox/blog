@@ -74,10 +74,10 @@
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">// expected output: 2
 &lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;h2 id="左移-">左移 (&amp;laquo;)&lt;/h2>
+&lt;/div>&lt;h2 id="左移-">左移 (&amp;lt;&amp;lt;)&lt;/h2>
 &lt;p>&lt;strong>左移操作符 (&lt;code>&amp;lt;&amp;lt;&lt;/code>)&lt;/strong> 将第一个操作数向左移动指定位数，左边超出的位数将会被清除，右边将会补零。&lt;/p>
 &lt;blockquote>
-&lt;p>A&amp;laquo;B，可以简单理解为 A * 2^B&lt;/p>
+&lt;p>A&amp;lt;&amp;lt;B，可以简单理解为 A * 2^B&lt;/p>
 &lt;/blockquote>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
@@ -95,7 +95,7 @@
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">// expected output: 20
 &lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;h2 id="右移-">右移 (&amp;raquo;)&lt;/h2>
+&lt;/div>&lt;h2 id="右移-">右移 (&amp;gt;&amp;gt;)&lt;/h2>
 &lt;p>&lt;strong>右移操作符 (&lt;code>&amp;gt;&amp;gt;&lt;/code>)&lt;/strong> 是将一个操作数按指定移动的位数向右移动，右边移出位被丢弃，左边移出的空位补符号位（最左边那位）。&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
@@ -121,8 +121,8 @@
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">// expected output: -2
 &lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;h2 id="无符号右移-">无符号右移 (&amp;raquo;&amp;gt;)&lt;/h2>
-&lt;p>&lt;strong>无符号右移运算符（&lt;code>&amp;gt;&amp;gt;&amp;gt;&lt;/code>）&lt;/strong>（零填充右移）将左操作数计算为无符号数，并将该数字的二进制表示形式移位为右操作数指定的位数，取模 32。向右移动的多余位将被丢弃，零位从左移入。其符号位变为 &lt;code>0&lt;/code>，因此结果始终为非负数。与其他按位运算符不同，零填充右移返回一个无符号 32 位整数。&amp;raquo;&amp;raquo;&amp;raquo;&lt;/p>
+&lt;/div>&lt;h2 id="无符号右移-">无符号右移 (&amp;gt;&amp;gt;&amp;gt;)&lt;/h2>
+&lt;p>&lt;strong>无符号右移运算符（&lt;code>&amp;gt;&amp;gt;&amp;gt;&lt;/code>）&lt;/strong>（零填充右移）将左操作数计算为无符号数，并将该数字的二进制表示形式移位为右操作数指定的位数，取模 32。向右移动的多余位将被丢弃，零位从左移入。其符号位变为 &lt;code>0&lt;/code>，因此结果始终为非负数。与其他按位运算符不同，零填充右移返回一个无符号 32 位整数。&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&lt;/p>
 &lt;blockquote>
 &lt;p>右移时，最左边数值位补充 0&lt;/p>
 &lt;/blockquote>
@@ -231,10 +231,10 @@
 &lt;li>&lt;code>null&lt;/code>&lt;/li>
 &lt;li>&lt;code>NaN&lt;/code>&lt;/li>
 &lt;li>&lt;code>0&lt;/code>&lt;/li>
-&lt;li>空字符串(&amp;rsquo;&amp;rsquo;, &amp;ldquo;&amp;rdquo;, ``)&lt;/li>
+&lt;li>空字符串('', &amp;quot;&amp;quot;, ``)&lt;/li>
 &lt;li>&lt;code>undefined&lt;/code>&lt;/li>
 &lt;/ul>
-&lt;p>逻辑与表达式从左到右进行评估，它使用以下规则测试可能的 &amp;ldquo;短路 &amp;ldquo;评估:&lt;/p>
+&lt;p>逻辑与表达式从左到右进行评估，它使用以下规则测试可能的 &amp;quot;短路 &amp;quot;评估:&lt;/p>
 &lt;p>&lt;code>(some falsy expression) &amp;amp;&amp;amp; expr&lt;/code>&lt;/p>
 &lt;p>如果左边的部分被评估为 &lt;code>fasly&lt;/code>，那么 &lt;code>expr&lt;/code> 不会执行。&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
