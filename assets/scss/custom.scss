@@ -5,7 +5,7 @@
 
 :root {
   // --article-font-family: "Jetbrains Mono Light", var(--zh-font-family), var(--sys-font-family), sans-serif;
-  --article-font-family: var(--zh-font-family), var(--sys-font-family), sans-serif;
+  --article-font-family: "Jetbrains Mono Light", var(--zh-font-family), var(--sys-font-family), sans-serif;
   --code-font-family: "Jetbrains Mono Light", Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 
@@ -14,15 +14,45 @@
     padding-bottom: var(--main-top-padding);
   }
 
-  .arrow-up {
+  #back-to-top {
     position: absolute;
     bottom: 0;
-    right: var(--main-top-padding);
-    width: 20px;
-    height: 20px;
-    // font-size: 30px;
+    right: 25px;
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 50%;
     cursor: pointer;
+    box-shadow: var(--shadow-l1);
+    &:hover {
+      box-shadow: var(--shadow-l4);
+    }
   }
+}
+
+::selection {
+  color: #fff;
+  background: #557697;
+}
+
+// 滚动条样式
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #d6dee1;
+  border-radius: 20px;
+  border: 6px solid transparent;
+  background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #a8bbbf;
 }
 
 .widget--toc {
@@ -49,23 +79,22 @@
       }
     }
   }
+  // ::-webkit-scrollbar {
+  //   width: 20px;
+  // }
 
-  ::-webkit-scrollbar {
-    width: 20px;
-  }
+  // ::-webkit-scrollbar-track {
+  //   background-color: transparent;
+  // }
 
-  ::-webkit-scrollbar-track {
-    background-color: transparent;
-  }
+  // ::-webkit-scrollbar-thumb {
+  //   background-color: #d6dee1;
+  //   border-radius: 20px;
+  //   border: 6px solid transparent;
+  //   background-clip: content-box;
+  // }
 
-  ::-webkit-scrollbar-thumb {
-    background-color: #d6dee1;
-    border-radius: 20px;
-    border: 6px solid transparent;
-    background-clip: content-box;
-  }
-
-  ::-webkit-scrollbar-thumb:hover {
-    background-color: #a8bbbf;
-  }
+  // ::-webkit-scrollbar-thumb:hover {
+  //   background-color: #a8bbbf;
+  // }
 }

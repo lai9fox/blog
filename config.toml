@@ -159,6 +159,9 @@ toLower = false
 [markup.goldmark.renderer]
 unsafe = false
 
+[markup.goldmark.extensions]
+typographer = false
+
 [markup.tableOfContents]
 endLevel = 4
 ordered = true
