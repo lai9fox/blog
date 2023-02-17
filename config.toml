@@ -47,7 +47,7 @@ favicon = "/favicon.ico"
     [params.comments.gitalk]
       owner = 'lai9fox'
       admin = ['lai9fox']
-      repo = 'blog.git'
+      repo = 'blog'
       clientID = '0c60543304dc769dd02e'
       clientSecret = '170ec2b71f73b5785e9b759df22efd48663721e5'
 

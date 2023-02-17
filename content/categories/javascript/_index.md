@@ -1,7 +1,7 @@
 ---
-title: "JS"
+title: "JavaScript"
 description: "JavaScript"
-slug: "js"
+slug: "javascript"
 style:
     background: "#2a9d8f"
     color: "#fff"
