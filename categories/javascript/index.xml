@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>JS on 狐假虎威</title><link>https://lai9fox.github.io/blog/categories/js/</link><description>Recent content in JS on 狐假虎威</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Wed, 09 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://lai9fox.github.io/blog/categories/js/index.xml" rel="self" type="application/rss+xml"/><item><title>JS 运算符</title><link>https://lai9fox.github.io/blog/post/2023/2/js-operator/</link><pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate><guid>https://lai9fox.github.io/blog/post/2023/2/js-operator/</guid><description>&lt;h2 id="一元加-">一元加 (+)&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>JavaScript on 狐假虎威</title><link>https://lai9fox.github.io/blog/categories/javascript/</link><description>Recent content in JavaScript on 狐假虎威</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sat, 11 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://lai9fox.github.io/blog/categories/javascript/index.xml" rel="self" type="application/rss+xml"/><item><title>JS 运算符</title><link>https://lai9fox.github.io/blog/post/2023/2/js-operator/</link><pubDate>Sat, 11 Feb 2023 00:00:00 +0000</pubDate><guid>https://lai9fox.github.io/blog/post/2023/2/js-operator/</guid><description>&lt;h2 id="一元加-">一元加 (+)&lt;/h2>
 &lt;p>&lt;strong>一元加&lt;/strong>（&lt;strong>&lt;code>+&lt;/code>&lt;/strong>）运算符在其操作数之前并计算其操作数，但会尝试将其&lt;a class="link" href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Number#%e6%95%b0%e5%80%bc%e8%bd%ac%e6%8d%a2" target="_blank" rel="noopener"
 >转换为数字&lt;/a>。&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
@@ -23,7 +23,6 @@
 &lt;/span>&lt;span class="lnt">18
 &lt;/span>&lt;span class="lnt">19
 &lt;/span>&lt;span class="lnt">20
-&lt;/span>&lt;span class="lnt">21
 &lt;/span>&lt;/code>&lt;/pre>&lt;/td>
 &lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code class="language-javascript" data-lang="javascript">&lt;span class="line">&lt;span class="cl">&lt;span class="kr">const&lt;/span> &lt;span class="nx">x&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="mi">1&lt;/span>&lt;span class="p">;&lt;/span>
@@ -31,7 +30,6 @@
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">console&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">log&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="o">+&lt;/span>&lt;span class="nx">x&lt;/span>&lt;span class="p">);&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">// expected output: 1
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">// 注释中的中文字体，测试。？！、
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">console&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">log&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="o">+&lt;/span>&lt;span class="nx">y&lt;/span>&lt;span class="p">);&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">// expected output: -1
@@ -122,7 +120,7 @@
 &lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
 &lt;/div>&lt;h2 id="无符号右移-">无符号右移 (&amp;gt;&amp;gt;&amp;gt;)&lt;/h2>
-&lt;p>&lt;strong>无符号右移运算符（&lt;code>&amp;gt;&amp;gt;&amp;gt;&lt;/code>）&lt;/strong>（零填充右移）将左操作数计算为无符号数，并将该数字的二进制表示形式移位为右操作数指定的位数，取模 32。向右移动的多余位将被丢弃，零位从左移入。其符号位变为 &lt;code>0&lt;/code>，因此结果始终为非负数。与其他按位运算符不同，零填充右移返回一个无符号 32 位整数。&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&lt;/p>
+&lt;p>&lt;strong>无符号右移运算符（&lt;code>&amp;gt;&amp;gt;&amp;gt;&lt;/code>）&lt;/strong>（零填充右移）将左操作数计算为无符号数，并将该数字的二进制表示形式移位为右操作数指定的位数，取模 32。向右移动的多余位将被丢弃，零位从左移入。其符号位变为 &lt;code>0&lt;/code>，因此结果始终为非负数。与其他按位运算符不同，零填充右移返回一个无符号 32 位整数。&lt;/p>
 &lt;blockquote>
 &lt;p>右移时，最左边数值位补充 0&lt;/p>
 &lt;/blockquote>
@@ -152,7 +150,7 @@
 &lt;/div>
 &lt;/div>&lt;h2 id="按位与-">按位与 (&amp;amp;)&lt;/h2>
 &lt;p>&lt;strong>按位与&lt;/strong>（&lt;strong>&lt;code>&amp;amp;&lt;/code>&lt;/strong>）运算符在两个操作数对应的二进位都为 &lt;code>1&lt;/code> 时，该位的结果值才为 &lt;code>1&lt;/code>。&lt;/p>
-&lt;p>操作树将被转换为 32 位的整数，超过 32 位的属猪将被丢弃。&lt;/p>
+&lt;p>操作数将被转换为 32 位的整数，超过 32 位的数值将被丢弃。&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
@@ -234,7 +232,7 @@
 &lt;li>空字符串('', &amp;quot;&amp;quot;, ``)&lt;/li>
 &lt;li>&lt;code>undefined&lt;/code>&lt;/li>
 &lt;/ul>
-&lt;p>逻辑与表达式从左到右进行评估，它使用以下规则测试可能的 &amp;quot;短路 &amp;quot;评估:&lt;/p>
+&lt;p>逻辑与表达式从左到右进行评估，它使用以下规则测试可能的 &amp;quot;短路&amp;quot; 评估:&lt;/p>
 &lt;p>&lt;code>(some falsy expression) &amp;amp;&amp;amp; expr&lt;/code>&lt;/p>
 &lt;p>如果左边的部分被评估为 &lt;code>fasly&lt;/code>，那么 &lt;code>expr&lt;/code> 不会执行。&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
@@ -710,15 +708,4 @@
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">// prot &amp;#34;456&amp;#34; (Access to the prototype chain)
 &lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div></description></item><item><title>Test Article</title><link>https://lai9fox.github.io/blog/post/2023/2/test-art/</link><pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate><guid>https://lai9fox.github.io/blog/post/2023/2/test-art/</guid><description>&lt;h2 id="introduction">Introduction&lt;/h2>
-&lt;p>This is &lt;strong>bold&lt;/strong> text, and this is &lt;em>emphasized&lt;/em> text.&lt;/p>
-&lt;p>Visit the &lt;a class="link" href="https://gohugo.io" target="_blank" rel="noopener"
->Hugo&lt;/a> website!&lt;/p>
-&lt;h2 id="introduction-1">Introduction&lt;/h2>
-&lt;p>This is &lt;strong>bold&lt;/strong> text, and this is &lt;em>emphasized&lt;/em> text.&lt;/p>
-&lt;p>Visit the &lt;a class="link" href="https://gohugo.io" target="_blank" rel="noopener"
->Hugo&lt;/a> website!&lt;/p>
-&lt;h2 id="introduction-2">Introduction&lt;/h2>
-&lt;p>This is &lt;strong>bold&lt;/strong> text, and this is &lt;em>emphasized&lt;/em> text.&lt;/p>
-&lt;p>Visit the &lt;a class="link" href="https://gohugo.io" target="_blank" rel="noopener"
->Hugo&lt;/a> website!&lt;/p></description></item></channel></rss>
+&lt;/div></description></item></channel></rss>
