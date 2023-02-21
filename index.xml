@@ -51,8 +51,14 @@
 &lt;code>async&lt;/code> 特性仅适用于外部脚本。&lt;!-- raw HTML omitted -->
 如果 &lt;code>&amp;lt;script&amp;gt;&lt;/code> 标签没有 &lt;code>src&lt;/code> 特性（attribute），那么 &lt;code>async&lt;/code> 特性会被忽略。&lt;/p>
 &lt;/blockquote>
-&lt;p>&lt;img src="https://lai9fox.github.io/blog/blog/script-async.png"
+&lt;p>&lt;img src="https://lai9fox.github.io/blog/blog/post/2023/2/js-in-html/script-async.png"
+width="1501"
+height="216"
+srcset="https://lai9fox.github.io/blog/blog/post/2023/2/js-in-html/script-async_hu129fc7794b1726b424611a8df84b6eb3_1711_480x0_resize_box_3.png 480w, https://lai9fox.github.io/blog/blog/post/2023/2/js-in-html/script-async_hu129fc7794b1726b424611a8df84b6eb3_1711_1024x0_resize_box_3.png 1024w"
 loading="lazy"
+class="gallery-image"
+data-flex-grow="694"
+data-flex-basis="1667px"
 >&lt;/p>
 &lt;p>&lt;code>async&lt;/code> 脚本会在后台加载，并在加载就绪时运行。DOM 和其他脚本不会等待它们，它们也不会等待其它的东西。async 脚本就是一个会在加载完成时执行的完全独立的脚本。&lt;/p>
 &lt;p>当我们将独立的第三方脚本集成到页面时，此时采用异步加载方式是非常棒的：计数器，广告等，因为它们不依赖于我们的脚本，我们的脚本也不应该等待它们。&lt;/p>
@@ -62,8 +68,14 @@ loading="lazy"
 &lt;p>具有 &lt;code>defer&lt;/code> 特性的脚本保持其相对顺序，就像常规脚本一样。&lt;!-- raw HTML omitted -->
 &lt;code>defer&lt;/code> 特性仅适用于外部脚本，如果 &lt;code>&amp;lt;script&amp;gt;&lt;/code> 脚本没有 &lt;code>src&lt;/code>，则会忽略 &lt;code>defer&lt;/code> 特性。&lt;/p>
 &lt;/blockquote>
-&lt;p>&lt;img src="https://lai9fox.github.io/blog/blog/script-defer.png"
+&lt;p>&lt;img src="https://lai9fox.github.io/blog/blog/post/2023/2/js-in-html/script-defer.png"
+width="1495"
+height="177"
+srcset="https://lai9fox.github.io/blog/blog/post/2023/2/js-in-html/script-defer_huaeb4be495a2f0a13236b69f5bc947b0b_1428_480x0_resize_box_3.png 480w, https://lai9fox.github.io/blog/blog/post/2023/2/js-in-html/script-defer_huaeb4be495a2f0a13236b69f5bc947b0b_1428_1024x0_resize_box_3.png 1024w"
 loading="lazy"
+class="gallery-image"
+data-flex-grow="844"
+data-flex-basis="2027px"
 >&lt;/p>
 &lt;h3 id="src">src&lt;/h3>
 &lt;p>定义引用外部脚本的 URI，这可以用来代替直接在文档中嵌入脚本。&lt;/p>
