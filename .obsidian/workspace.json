@@ -1,52 +1,35 @@
 {
   "main": {
-    "id": "394a28182e5c17d4",
+    "id": "cca473db0081cc19",
     "type": "split",
     "children": [
       {
-        "id": "af8124973caec870",
+        "id": "4260807328d2b7e5",
         "type": "tabs",
         "children": [
           {
-            "id": "cd42d407b455df10",
+            "id": "c1c6f6a0ec440426",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "javascript/HTML中的脚本加载.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1dfb986e7f200f3e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "javascript/数据类型.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "8049ace4831a3a1e",
+    "id": "36355ecbe14c57c0",
     "type": "split",
     "children": [
       {
-        "id": "8beeba9107580783",
+        "id": "f2a1e210178b3835",
         "type": "tabs",
         "children": [
           {
-            "id": "e0f429488f5ce3c5",
+            "id": "917b5d367ceab227",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -56,7 +39,7 @@
             }
           },
           {
-            "id": "20f004a3223f3f26",
+            "id": "d63d4775669b3d22",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -71,7 +54,7 @@
             }
           },
           {
-            "id": "ce8af6a83daf6041",
+            "id": "6401a49149e8109c",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -82,23 +65,22 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 300
   },
   "right": {
-    "id": "a5024472fd9f77aa",
+    "id": "91109c9f00cfabb3",
     "type": "split",
     "children": [
       {
-        "id": "73dc37c42b122497",
+        "id": "0316f936dd50d317",
         "type": "tabs",
         "children": [
           {
-            "id": "184032d5e80067bb",
+            "id": "2b7f1d8c6f1ac55b",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "javascript/数据类型.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,19 +92,18 @@
             }
           },
           {
-            "id": "b69795c802976960",
+            "id": "ef1f061fe46065db",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "javascript/数据类型.md",
                 "linksCollapsed": false,
-                "unlinkedCollapsed": false
+                "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "d0b2c4a55a160454",
+            "id": "918f30080f290eb5",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -133,21 +114,19 @@
             }
           },
           {
-            "id": "2c5e52427de366b7",
+            "id": "145c4f09ff76f230",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "javascript/数据类型.md"
-              }
+              "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 344.5
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -156,35 +135,9 @@
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false,
-      "command-palette:打开命令面板": false,
-      "obsidian-kanban:创建新看板": false
+      "command-palette:打开命令面板": false
     }
   },
-  "active": "1dfb986e7f200f3e",
-  "lastOpenFiles": [
-    "javascript/assets/CleanShot 2024-07-10 at 10.48.05@2x.png",
-    "javascript/变量声明.md",
-    "javascript/数据类型.md",
-    "javascript/HTML中的脚本加载.md",
-    "javascript/assets/CleanShot 2024-06-15 at 16.50.58@2x.png",
-    "javascript/assets/CleanShot 2024-06-15 at 16.50.41@2x.png",
-    "nginx/代理.md",
-    "nginx/assets/CleanShot 2024-06-15 at 20.33.48@2x.png",
-    "nginx/assets/CleanShot 2024-06-15 at 20.02.04@2x.png",
-    "nginx/assets",
-    "nginx",
-    "javascript",
-    "未命名看板.md",
-    "未命名.canvas",
-    "Excalidraw/Drawing 2024-07-05 10.19.12.excalidraw.md",
-    "2024-07-05.md",
-    "Excalidraw",
-    "nodejs/环境变量.md",
-    "nodejs/assets/CleanShot 2024-07-04 at 11.21.43@2x.png",
-    "nodejs/assets",
-    "CleanShot 2024-07-04 at 11.20.20@2x.png",
-    "nodejs",
-    "2024-06-27.md"
-  ]
+  "active": "c1c6f6a0ec440426",
+  "lastOpenFiles": []
 }
