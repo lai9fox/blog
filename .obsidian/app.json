@@ -1,0 +1,8 @@
+{
+  "tabSize": 2,
+  "alwaysUpdateLinks": true,
+  "newLinkFormat": "relative",
+  "useMarkdownLinks": true,
+  "showUnsupportedFiles": true,
+  "attachmentFolderPath": "./assets"
+}
