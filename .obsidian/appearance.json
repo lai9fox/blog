@@ -3,5 +3,6 @@
   "interfaceFontFamily": "LXGW WenKai Mono GB,JetBrains Mono",
   "textFontFamily": "LXGW WenKai Mono GB,JetBrains Mono",
   "monospaceFontFamily": "LXGW WenKai Mono GB,JetBrains Mono",
-  "translucency": true
+  "translucency": true,
+  "theme": "obsidian"
 }

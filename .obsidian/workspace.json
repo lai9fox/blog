@@ -11,11 +11,26 @@
             "id": "a3d1163942df3ebf",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "javascript/执行上下文与作用域.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "24c66bf246bfec2f",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.6.7"
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -65,7 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 319.5
+    "width": 200
   },
   "right": {
     "id": "4444f8085cc0c5e8",
@@ -81,6 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "javascript/执行上下文与作用域.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "javascript/执行上下文与作用域.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,15 +135,17 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "javascript/执行上下文与作用域.md"
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -138,14 +157,17 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "a3d1163942df3ebf",
+  "active": "24c66bf246bfec2f",
   "lastOpenFiles": [
+    "javascript/变量.md",
+    "javascript/执行上下文与作用域.md",
+    "javascript/assets/CleanShot 2024-07-17 at 20.53.11@2x.png",
+    "javascript/assets/CleanShot 2024-07-17 at 20.45.10@2x.png",
+    "javascript/数据类型.md",
     "nginx/代理.md",
     "nginx/assets/Pasted image 20240716231138.png",
     "nginx/assets/Pasted image 20240716231318.png",
     "nginx/assets/Pasted image 20240716231221.png",
-    "javascript/数据类型.md",
-    "javascript/操作符.md",
-    "javascript/变量声明.md"
+    "javascript/操作符.md"
   ]
 }
