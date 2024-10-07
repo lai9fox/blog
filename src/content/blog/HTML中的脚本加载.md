@@ -1,3 +1,16 @@
+---
+author: lai9fox
+pubDatetime: 2024-10-07T15:43:27.000+08:00
+modDatetime: 
+title: HTML 中的脚本加载
+featured: false
+draft: false
+tags:
+  - js
+  - html
+description: 脚本加载
+---
+
 浏览器加载 HTML 页面时，如果遇上 `<script></script>` 标签，则需要停止加载构建 DOM，立即加载并执行脚本。
 
 这种表现对于外部 `<script src="..." />` 同样生效。
@@ -50,7 +63,7 @@
 
 加载顺序为
 
-![CleanShot 2024-06-15 at 16.50.41@2x](./assets/CleanShot%202024-06-15%20at%2016.50.41@2x.png)
+![CleanShot 2024-06-15 at 16.50.41@2x](../images/CleanShot%202024-06-15%20at%2016.50.41@2x.png)
 
 ### async
 
@@ -60,7 +73,7 @@
 
 需要注意，脚本的执行顺序与其在文档中的顺序是无关的，先加载完成的脚本先执行。同样，如果脚本没有 `src` 属性，则忽略 `async` 的作用。
 
-![CleanShot 2024-06-15 at 16.50.58@2x](./assets/CleanShot%202024-06-15%20at%2016.50.58@2x.png)
+![CleanShot 2024-06-15 at 16.50.58@2x](../images/CleanShot%202024-06-15%20at%2016.50.58@2x.png)
 
 ### 动态脚本
 
